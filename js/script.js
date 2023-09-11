@@ -1,7 +1,7 @@
 const boxesContainer = document.querySelector(".boxes");
 for(let i = 1; i <=100; i++){
   const box = document.createElement("div");
-  box.classList.add("box", "m-3", "bg_default")
+  box.classList.add("box", "m-3", "bg_default", "text_fr")
   box.append(i);
   
   if((i % 3) === 0){

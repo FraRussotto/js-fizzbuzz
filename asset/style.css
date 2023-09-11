@@ -16,6 +16,11 @@ h1{
   align-items: center;
 }
 
+.text_fr{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
 .bg_default{
   background-color: #1389b2;
 }
