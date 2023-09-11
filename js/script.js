@@ -11,7 +11,7 @@ for(let i = 1; i <=100; i++){
     box.classList.add("bg_yellow")
     box.innerHTML = "buzz";
   }
-  if(((i % 3)+(i % 5)) === 0){
+  if(!(i % 3) && !(i % 5)){
     box.classList.add("bg_red")
     box.innerHTML = "fizzbuzz";
   }
